@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>拯救红楼</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="status"></div>
+    <div id="game-board"></div>
+    <div id="timer" style="margin-top: 10px; font-size: 18px;"></div>
+    <div class="controls">
+        <button id="retry-btn">重玩</button>
+        <button id="prev-level-btn" style="display:none;">上一关</button>
+        <button id="next-level-btn" style="display:none;">下一关</button>
+    </div>
+    <div id="completion-message" style="display:none;"></div>
+    <div id="summary-popup" class="popup" style="display:none;">
+        <div class="popup-content">
+            <h2>游戏总结</h2>
+            <div id="summary-content"></div>
+            <button id="restart-btn">重新开始</button>
+            <span class="close-btn" id="close-popup-btn">&times;</span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
